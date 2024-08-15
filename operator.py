@@ -87,3 +87,7 @@ print(b in a)
 print('d' in a and 'a' not in b)
 print(b+a)
 
+
+
+
+

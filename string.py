@@ -23,7 +23,7 @@
 
 # STRING METHODS
 
-# a="   deepak   "
+# a="deepak"
 # print("First letter :",a.capitalize())
 # print("Capital :",a.upper())
 # print("Lower :",a.lower())

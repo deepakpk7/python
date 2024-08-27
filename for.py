@@ -239,16 +239,50 @@ A B C"""
 3 2 1 
 """
 
-for i in range(3):
-    for j in range(3):
-        if i==j:
-            print(5,end="  ")
-        else :
-            print("#",end="  ")
-    print()
+# for i in range(3):
+#     for j in range(3):
+#         if i==j:
+#             print(5,end="  ")
+#         else :
+#             print("#",end="  ")
+#     print()
 
 """
 5  #  #  
 #  5  #  
 #  #  5 
 """
+
+
+# for i in range(1,4):
+#     for j in range(i):
+#         a=65
+#         print(chr(a+j),end=" ")
+#     print()
+
+"""
+A 
+A B 
+A B C 
+"""
+
+
+# for i in range(1,4):
+#     a=64
+#     for j in range(i):
+#         print(chr(a+i),end=" ")
+#     print()
+
+"""
+A 
+B B 
+C C C 
+"""
+
+a=65
+for i in range(1,4):
+    for j in range(i):
+        if a==65:
+            print(chr(a),end=" ")
+            print(i-a,end=" ")  
+    print()

@@ -187,6 +187,18 @@
 #         elif j==2:
 #             print('C',end="\t")
 #     print()
+
+for i in range(3):
+    a=65
+    for j in range(3):
+        print(chr(a+j),end=" ")
+    print()
+"""
+65 66 67
+65 66 67
+65 66 67
+"""
+
 """
 A B C
 A B C 
@@ -204,7 +216,3 @@ A B C"""
 # 13      15      17
 
 
-for i in range(3):
-    for j in range(3):
-        print("#",end="\t")
-    print()

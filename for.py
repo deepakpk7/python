@@ -188,11 +188,11 @@
 #             print('C',end="\t")
 #     print()
 
-for i in range(3):
-    a=65
-    for j in range(3):
-        print(chr(a+j),end=" ")
-    print()
+# for i in range(3):
+#     a=65
+#     for j in range(3):
+#         print(chr(a+j),end=" ")
+#     print()
 """
 65 66 67
 65 66 67
@@ -215,4 +215,40 @@ A B C"""
 # 7       9       11
 # 13      15      17
 
+# a=1
+# for i in range(1,15):
+#     for j in range(i):
+#         print(a,end="  ")
+#         a+=1
+#     print()
 
+"""
+1  
+2  3  
+4  5  6  
+"""
+
+# for i in range(1,4):
+#     for j in range(i):
+#         print(i-j,end=" ")
+#     print()
+
+"""
+1 
+2 1 
+3 2 1 
+"""
+
+for i in range(3):
+    for j in range(3):
+        if i==j:
+            print(5,end="  ")
+        else :
+            print("#",end="  ")
+    print()
+
+"""
+5  #  #  
+#  5  #  
+#  #  5 
+"""

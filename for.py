@@ -279,10 +279,15 @@ B B
 C C C 
 """
 
-a=65
+
 for i in range(1,4):
+    a=64
     for j in range(i):
-        if a==65:
-            print(chr(a),end=" ")
-            print(i-a,end=" ")  
+        print(chr(a+i),end=" ")
+        a-=1
     print()
+"""
+A 
+B A 
+C B A 
+"""

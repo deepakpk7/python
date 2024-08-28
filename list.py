@@ -84,3 +84,13 @@
 # """
 
 
+# TASK
+
+l=[1,5,8,10,11]
+s=0
+for i in l:
+    if i%2==0:
+        print(i)
+        s+=i
+print("SUM =",s)
+

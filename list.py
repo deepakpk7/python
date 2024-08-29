@@ -86,11 +86,31 @@
 
 # TASK
 
-l=[1,5,8,10,11]
+# l=[1,5,8,10,11]
+# s=0
+# for i in l:
+#     if i%2==0:
+#         print(i)
+#         s+=i
+# print("SUM =",s)
+
+# l=['welcome','hello','python']
+# for i in l:
+#     print(i[::-1])
+
+# """
+# emoclew
+# olleh
+# nohtyp
+# """
+
+l=[1,10,5.8,'abc',2]
 s=0
 for i in l:
-    if i%2==0:
-        print(i)
+    if type(i)==int or type(i)==float:
         s+=i
-print("SUM =",s)
+print(s)
 
+"""
+18.8
+"""

@@ -104,13 +104,58 @@
 # nohtyp
 # """
 
-l=[1,10,5.8,'abc',2]
-s=0
-for i in l:
-    if type(i)==int or type(i)==float:
-        s+=i
-print(s)
+# l=[1,10,5.8,'abc',2]
+# s=0
+# for i in l:
+#     if type(i)==int or type(i)==float:
+#         s+=i
+# print(s)
+
+# """
+# 18.8
+# """
+
+# l=[5,8,5,1,2,3,8,5]
+# du=[]
+# for i in l:
+#     if i not in du:
+#         du.append(i)
+# print(du)
+    
+# """
+# [5, 8, 1, 2, 3]
+# """
+
+# names=[]
+# limit=int(input("Enter a limit :"))
+# for i in range(limit):
+#     name=input("Enter a Names :")
+#     names.append(name)
+# print(names)
 
 """
-18.8
+Enter a limit :3
+Enter a Names :deepak
+Enter a Names :ibin
+Enter a Names :alen
+['deepak', 'ibin', 'alen']
+"""
+stu=[]
+limit=int(input("Enter a limit :"))
+for i in range(limit):
+    name=input("Enter a Names :")
+    age=int(input("Enter a Age :"))
+    mark=int(input("Enter a mark :"))
+    stu.append([name,age,mark])
+print(stu)
+
+"""
+Enter a limit :2
+Enter a Names :deepak
+Enter a Age :21
+Enter a mark :100
+Enter a Names :abc
+Enter a Age :12
+Enter a mark :15
+[['deepak', 21, 100], ['abc', 12, 15]]
 """

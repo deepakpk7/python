@@ -17,3 +17,13 @@ while True:
         print('*'*20)
         for i in stu:
             print('{:<10}{:<5}{:<5}'.format(i[0],i[1],i[2]))
+    elif choice==3:
+        name=input("Enter a Name")
+        f=0
+        for i in stu:
+            if i[0]==name:
+                mark=int(input("Enter a new mark"))
+                i[2]=mark
+                f=1
+        if f==0:
+            print("Name Not the Database")

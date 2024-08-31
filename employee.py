@@ -88,7 +88,8 @@ while True:
     elif choice==7:
         for i in emp:
             if len(i)>6:
-                print(i[0],i[1],i[6][0],i[6][1])
+                print('{:<5}{:<10}{:<15}{:<10}'.format('id','name','task','date'))
+                print('{:<5}{:<10}{:<15}{:<10}'.format(i[0],i[1],i[6][0],i[6][1]))
     elif choice==8:
         break
     else:

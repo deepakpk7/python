@@ -21,9 +21,9 @@ while True:
         exp=int(input('Enter your experience: '))
         emp.append([id,name,age,poition,salary,exp])
     elif choice==2:
-        print('{:<5}{:<10}{:<5}{:<15}{:<10}{:<5}'.format('id','Name','Age','position','salary','Experience'))
+        print('{:<5}{:<10}{:<5}{:<15}{:<15}{:<5}'.format('id','Name','Age','position','salary','Experience'))
         for i in emp:
-            print('{:<5}{:<10}{:<5}{:<10}{:<10}{:<5}'.format(i[0],i[1],i[2],i[3],i[4],i[5]))
+            print('{:<5}{:<10}{:<5}{:<15}{:<15}{:<5}'.format(i[0],i[1],i[2],i[3],i[4],i[5]))
     elif choice==3:
         id=int(input('enter the id: '))
         f=0
@@ -31,11 +31,12 @@ while True:
             if i[0]==id:
                 f=1
                 while True:
-                    print('''1.age 
-                            2.position
-                            3.salary
-                            4.experience 
-                            5.exit''')
+                    print('''
+                        1.age 
+                        2.position
+                        3.salary
+                        4.experience 
+                        5.exit''')
                     ch=int(input('choose any option :'))
                     if ch==1:
                         age=int(input("enter updated age: "))
@@ -87,7 +88,7 @@ while True:
     elif choice==7:
         for i in emp:
             if len(i)>6:
-                print('{:<5}{:<10}{:<5}{:<10}{:<10}{:<5}'.format(i[0],i[1],i[6],i[6]))
+                print(i[0],i[1],i[6][0],i[6][1])
     elif choice==8:
         break
     else:

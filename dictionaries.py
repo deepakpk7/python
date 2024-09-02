@@ -1,6 +1,6 @@
-d={'name':'deepak',
-   'age':'20',
-   'mark':'55'}
+# d={'name':'deepak',
+#    'age':'20',
+#    'mark':'55'}
 # print(d)
 # print(d['name'])
 # d['name']='achu' 
@@ -27,15 +27,23 @@ deepak
 
 # Methods
 
-print(d.get('name'))
-print(d.values())
-print(d.keys())
-print(d.items())
+# print(d.get('name'))
+# print(d.values())
+# print(d.keys())
+# print(d.items())
 # d.pop('age')
 # print(d)
 # d.popitem()
 # print(d)
-d.update({'mark':'100'})
-print(d)
+# d.update({'mark':'100'})
+# print(d)
 # d.clear()
 # print(d)
+
+d={}
+# l=['name','age','mark','place']
+# d=d.fromkeys(l)
+# print(d)
+d.setdefault('name')
+print(d)
+

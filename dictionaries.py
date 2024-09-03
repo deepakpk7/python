@@ -1,6 +1,6 @@
-# d={'name':'deepak',
-#    'age':'20',
-#    'mark':'55'}
+d={'name':'deepak',
+   'age':'20',
+   'mark':'55'}
 # print(d)
 # print(d['name'])
 # d['name']='achu' 
@@ -40,10 +40,10 @@ deepak
 # d.clear()
 # print(d)
 
-d={}
+# d={}
 # l=['name','age','mark','place']
 # d=d.fromkeys(l)
 # print(d)
-d.setdefault('name')
-print(d)
+# d.setdefault('name')
+# print(d)
 

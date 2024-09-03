@@ -15,6 +15,7 @@ while True:
         age = int(input("Enter Age: "))
         mark = int(input("Enter Mark: "))
         students[name] = {'age': age, 'mark': mark}
+        print(students)
     elif choice == 2:
         print('_' * 30)
         print('{:<10}{:<5}{:<5}'.format('Name', 'Age', 'Mark'))
@@ -32,11 +33,9 @@ while True:
     elif choice == 4:
         name = input("Enter the Name to Delete: ")
         f=0
-        for i in students:
-            if students[i] ==name:
-                students.pop('name')
-
-                f=1
+        if name in students:
+            students.pop(name)
+            f=1
         if f==0:
             print("Name Not in the Database")
     elif choice == 5:

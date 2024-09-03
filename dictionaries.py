@@ -1,6 +1,6 @@
-d={'name':'deepak',
-   'age':'20',
-   'mark':'55'}
+# d={'name':'deepak',
+#    'age':'20',
+#    'mark':'55'}
 # print(d)
 # print(d['name'])
 # d['name']='achu' 
@@ -8,12 +8,12 @@ d={'name':'deepak',
 # d['place']='Ekm'
 # print(d)
 
-"""
-{'name': 'deepak', 'age': '20', 'mark': '55'}
-deepak
-{'name': 'achu', 'age': '20', 'mark': '55'}
-{'name': 'achu', 'age': '20', 'mark': '55', 'place': 'Ekm'}
-"""
+# """
+# {'name': 'deepak', 'age': '20', 'mark': '55'}
+# deepak
+# {'name': 'achu', 'age': '20', 'mark': '55'}
+# {'name': 'achu', 'age': '20', 'mark': '55', 'place': 'Ekm'}
+# """
 
 # for i in d:
     # print(i)
@@ -46,4 +46,15 @@ deepak
 # print(d)
 # d.setdefault('name')
 # print(d)
+        # print('{:<10}{:<5}{:<5}'.format('Name', 'Age'))
+        # print('{:<10}{:<5}{:<5}'.format())
 
+# 
+    
+
+    
+
+
+
+    
+    

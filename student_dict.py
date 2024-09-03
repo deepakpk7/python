@@ -35,6 +35,7 @@ while True:
         for i in students:
             if students[i] ==name:
                 students.pop('name')
+
                 f=1
         if f==0:
             print("Name Not in the Database")

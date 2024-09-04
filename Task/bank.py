@@ -37,8 +37,7 @@ while True:
                 print("1. Update Name")
                 print("2. Update Mobile Number")
                 print("3. Update Aadhar Number")
-                update_choice = int(input("What would you like to update? "))
-                
+                update_choice = int(input("Enter choices"))
                 if update_choice == 1:
                     i[1] = input("Enter new Name: ")
                 elif update_choice == 2:
@@ -48,7 +47,7 @@ while True:
                 print("Customer details updated successfully!")
                 break
         else:
-            print("i not found.")
+            print("not found.")
 
     elif choice == 4:
         ac_number = int(input("Enter A/C Number of the customer to remove: "))

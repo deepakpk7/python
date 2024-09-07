@@ -43,4 +43,5 @@ while True:
         print('*' * 30)
         for i in instamart:
             print('{:<10}{:<10}{:<10}'.format(i['bar_code'], i['name'], i['price']))
+            
         

@@ -37,12 +37,26 @@
 # print(b)
 
 
-def fun4():
-    a=1
-    b=2
-    c=3
-    return a,b,c
-a1,b2,c3=fun4()
-print(a1)
-print(b2)
-print(c3)
+# def fun4():
+#     a=1
+#     b=2
+#     c=3
+#     return a,b,c
+# a1,b2,c3=fun4()
+# print(a1)
+# print(b2)
+# print(c3)
+
+
+# Types of Arguments
+
+# Position Argument
+def details(name,age):
+    print("Name :",name)
+    print("Age :",age)
+details('Deepak',20)
+
+# Keyword Argument
+details(age=20,name='Deepak')
+
+#Default Argument

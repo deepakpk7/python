@@ -51,12 +51,18 @@
 # Types of Arguments
 
 # Position Argument
-def details(name,age):
-    print("Name :",name)
-    print("Age :",age)
-details('Deepak',20)
+# def details(name,age):
+#     print("Name :",name)
+#     print("Age :",age)
+# details('Deepak',20)
 
 # Keyword Argument
-details(age=20,name='Deepak')
+# details(age=20,name='Deepak')
 
 #Default Argument
+
+def sample(name='deepak',age=21):
+    print(name,age)
+sample()
+sample('deepak')
+sample(age=25)

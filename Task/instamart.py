@@ -44,6 +44,7 @@ while True:
         for i in instamart:
             print('{:<10}{:<10}{:<10}'.format(i['bar_code'], i['name'], i['price']))
             
+            
     elif choice == 5:
         emp_id = int(input("Enter Employee ID to Update: "))
         for i in instamart:

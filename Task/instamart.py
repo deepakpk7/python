@@ -74,6 +74,6 @@ while True:
     elif choice == 7:
         print("Exiting the system...")
         break
-    
+
     else:
         print("Invalid choice! Please try again.")

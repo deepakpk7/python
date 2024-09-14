@@ -34,7 +34,7 @@ while True:
         bar_code = int(input("Enter bar_code: "))
         name = input("Enter a product name: ")
         price = int(input("Enter price: "))
-        instamart.append({ 'bar_code': bar_code,'name': name, 'price': price})
+        instamart.append({'bar_code': bar_code,'name': name, 'price': price})
         print("Product added successfully!")
     
     elif choice== 4:
@@ -44,4 +44,35 @@ while True:
         for i in instamart:
             print('{:<10}{:<10}{:<10}'.format(i['bar_code'], i['name'], i['price']))
             
-        
+    elif choice == 5:
+        emp_id = int(input("Enter Employee ID to Update: "))
+        for i in instamart:
+            if i['emp_id'] == emp_id:
+                print("Current Details: ", i)
+                i['name'] = input("Enter New Name: ") 
+                i['mob'] = int(input("Enter New Mobile Number: "))
+                i['position'] = input("Enter New Position: ")
+                i['salary'] = float(input("Enter New Salary: "))
+                print("Employee details updated successfully!")
+                break
+        else:
+            print("Employee not found!")
+    
+    elif choice == 6:
+        bar_code = int(input("Enter Product Bar Code to Update: "))
+        for i in instamart:
+            if i['bar_code'] == bar_code:
+                print("Current Details: ", i)
+                i['name'] = input("Enter New Product Name: ")
+                i['price'] = float(input("Enter New Price: "))
+                print("Product details updated successfully!")
+                break
+        else:
+            print("Product not found!")
+    
+    elif choice == 7:
+        print("Exiting the system...")
+        break
+    
+    else:
+        print("Invalid choice! Please try again.")

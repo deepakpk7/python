@@ -1,6 +1,5 @@
 print("**********INSTAMART MANAGEMENT SYSTEM**********")
 
-# Separate lists for employees and products
 employees = []
 products = []
 

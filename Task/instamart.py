@@ -78,7 +78,6 @@ while True:
                 break
         else:
             print("Product not found!")
-
     elif choice == 7:
         print("Exiting the system...")
         break

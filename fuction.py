@@ -61,8 +61,37 @@
 
 #Default Argument
 
-def sample(name='deepak',age=21):
-    print(name,age)
-sample()
-sample('deepak')
-sample(age=25)
+# def sample(name='deepak',age=21):
+#     print(name,age)
+# sample()
+# sample('deepak')
+# sample(age=25)
+
+# Aribritary Argument
+
+# def aa(c,b,*a):
+#     print(c,b,a)
+    
+# aa(5,6)
+# aa(3,344,553,5,4)
+# aa(9,4)
+
+# Aribritary keyword Argument 
+
+# def aka(**a):
+#     print(a)
+    
+# aka(name='anu',age=20,name1='anu',age1=20)
+
+
+def numbers():
+    a=int(input("Enter a fist no :"))
+    b=int(input("Enter a second no :"))
+    return a,b
+add=lambda a,b:numbers()
+print(add(a+b))
+
+
+
+
+

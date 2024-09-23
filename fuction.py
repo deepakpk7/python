@@ -84,12 +84,7 @@
 # aka(name='anu',age=20,name1='anu',age1=20)
 
 
-def numbers():
-    a=int(input("Enter a fist no :"))
-    b=int(input("Enter a second no :"))
-    return a,b
-add=lambda a,b:numbers()
-print(add(a+b))
+
 
 
 

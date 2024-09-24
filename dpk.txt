@@ -1,1 +1,1 @@
-Welcome to VS Code
+New file using write

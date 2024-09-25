@@ -39,8 +39,50 @@
 #         r=i+r
 #     print(r)
 
-f=open('python/dpk2.txt','a')
-f.write('New file using append')
+# f=open('python/dpk2.txt','a')
+# f.write('New file using append')
+
+
+#Letters Count
+f=open('python/dpk.txt','r')
+l=f.readlines()
+f.seek(0)
+letter=0
+# for i in range(len(l)):
+#     a=f.readline().strip()
+#     for i in a:
+#         if i !=' ':
+#             letter+=1
+# print(letter)
+
+#count captial and lower
+#COUNT THE WORDS
+cap=0
+word=0
+for i in range(len(l)):
+    a=f.readline().strip()
+    s=a.split(' ')
+    for i in s:
+        if i!='':
+            word+=1
+    for i in a:
+        if i!=' ':
+            if i.isupper():
+                cap+=1
+            letter+=1
+
+print("Total letters",letter)
+print("Capital Letters =",cap)
+print("Small Letters =",letter-cap)
+print("Total words=",word)
+print("No of Lines= ",len(l))
+
+
+
+
+
+
+
 
     
     

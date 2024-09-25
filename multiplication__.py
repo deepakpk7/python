@@ -9,9 +9,9 @@ m=int(input("Enter a multiplication :"))
     # f.write(str(i)+'*'+str(m)+'='+str(i*m)+'\n')
 
 
-for i in range(1,m+1):
-    for j in range(1,11):
-        f.write(str(j)+ '*'+str(i)+' = '+str(i*j) + '\n')
+for i in range(1,11):
+    for j in range(1,m+1):
+        f.write(str(i)+'*'+str(j)+'='+str(i*j)+'\t')
     f.write('\n')
 
 

@@ -1,1 +1,4 @@
-New file using write
+New
+pythoN
+Hi A
+deepak

@@ -100,21 +100,62 @@
 
 # HIEARCHICAL INHERITANCES
 
-class College:
+# class College:
+#     def exam(self):
+#         print("Exam")
+#     def assignment(self):
+#         print("Internal ")
+# class chm(College):
+#     def notes(self):
+#         print("dfkj")
+# class bio(College):
+#     def uniform(self):
+#         print("kf")
+        
+# s=chm()
+# s.assignment()
+# a=bio()
+# a.uniform()
+
+# HYBRID INHERITANCES
+
+class Synofo:
+    def python(self):
+        print("Python")
+    def php(self):
+        print("PHP")
+    def course(self):
+        print("Cybersecurity , Network ")
+class Tech(Synofo):
+    def notes(self):
+        print("Notes")
+    def labs(self):
+        print("Labs avilable ")
+    def attendences(self):
+        print("Attendences")
+class Nontech(Synofo):
+    def dev(self):
+        print("Web Development")
+    def office(self):
+        print("fornt Office")
+        
+class Student(Tech,Synofo):
+    def notes(self):
+        print("Notes")
     def exam(self):
         print("Exam")
-    def assignment(self):
-        print("Internal ")
-class chm(College):
-    def notes(self):
-        print("dfkj")
-class bio(College):
-    def uniform(self):
-        print("kf")
+    def labs(self):
+        print("Labs")
         
-s=chm()
-s.assignment()
-a=bio()
-a.uniform()
+a=Synofo()
+a.course()
+
+b=Tech()
+b.attendences()
+
+c=Nontech()
+c.course()
+
+d=Student()
+d.python()
         
-    

@@ -36,13 +36,18 @@ while True:
                   1.Update ID
                   2.Update Name
                   3.Update Position
-                  4.Update Salary""")
+                  4.Update Salary
+                  5.Exist""")
             sub_cho=int(input("Enter chices :"))
             if sub_cho==1:
-                
-                
+                id=int(input("Enter changed ID: "))
+                new_id=int(input("Enter new ID: "))
+                con.execute("update student set emp_id=? where id=? ",(new_id,id))
+                con.commit()
             elif sub_cho==2:
                 name=input("Target name :")
                 nname=input("Enter new name: ")
                 con.execute("update student set name=? where name=? ",(nname,name))
                 con.commit()
+            elif sub_cho==3:
+                position=input("Enter the ")

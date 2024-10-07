@@ -31,7 +31,7 @@ con.commit()
     
 
 # USING CONDITION
-# n=int(input("enter the  vakue"))
+# n=int(input("enter the  value"))
 
 # data=con.execute("select * from student where roll_no=?",(n,))
 # print('_' * 60)

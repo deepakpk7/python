@@ -64,7 +64,7 @@ def login():
         f=1
         Home()
     if f==0:
-        l4.config(text="INVALID USERNAME OR PASSWORD")
+        l4.config(text="***Invalid username or password !!!")
     
 
 l1=tkinter.Label(win,text="Login Page",bg="green",fg="black")
@@ -84,5 +84,5 @@ b2=tkinter.Button(win,text="Login",bg="white",activebackground="white",fg="black
 b2.place(x=250,y=100)
 
 l4=tkinter.Label(win)
-l4.place(x=200,y=200)
+l4.place(x=150,y=200)
 win.mainloop()
